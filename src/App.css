@@ -1,0 +1,41 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px pink solid;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px rgb(184, 22, 22) solid; */
+  /* max-width: 60dvw; */
+  /* width: 40dvw; */
+}
+
+main label {
+  text-align: left;
+  font-size: 18px;
+}
+
+main form input {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 1px rgb(187, 184, 184) solid;
+  height: 30px;
+}
+
+.back-btn {
+  float: left;
+}
+
+header nav {
+  width: auto;
+  border: 1px green solid;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
